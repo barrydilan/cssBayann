@@ -20,6 +20,8 @@ body {
 	outline: none;
 }
 
+
+
 body > div {
 	width: 90%;
 	max-width: 37.5rem;
@@ -114,6 +116,10 @@ img {
 details {
     padding: 1rem;
   }
+  details:hover > summary{
+    transform: scale(1.1);
+    transition: 0.1s ease-in-out;
+  }
   
   details summary {
     transition: margin 150ms ease-out;
@@ -163,3 +169,7 @@ details {
 
 
 
+  #accordion:hover details {
+    font-weight: bold;
+    transition: 0.2s;
+ }
