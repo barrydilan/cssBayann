@@ -2,6 +2,7 @@
 
 *, *:after, *:before {
 	box-sizing: border-box;
+    
 }
 
 :root {
@@ -29,8 +30,6 @@ body > div {
 }
 
 details div {
-	border-left: 2px solid #000;
-	border-right: 2px solid #000;
 	border-bottom: 2px solid #000;
 	padding: 1.5em;
 
@@ -78,6 +77,7 @@ summary::after {
 
 details[open] summary {
 	background-color: #eee;
+    
 }
 
 details[open] summary::after {
@@ -110,3 +110,18 @@ img {
   margin-right: auto;
   max-width: 50%;
 }
+
+details {
+    padding: 10px;
+  }
+  
+  details summary {
+    cursor: pointer;
+    transition: margin 150ms ease-out;
+  }
+  
+  details[open] summary {
+    margin-bottom: 10px;
+  }
+  
+  
