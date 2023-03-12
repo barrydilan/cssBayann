@@ -199,7 +199,12 @@ details {
  }
 
  
- summary:hover .fa {
+ #accordion:hover .fa {
     opacity: 1;
     transition: 0.5s;
  }
+
+ img:active {
+    scale: 1.1;
+ }
+

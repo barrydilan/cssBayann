@@ -6,48 +6,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
-
-
     <title>Document</title>
 </head>
 <body>
-    <div id="accordion">
-        <details open >
-            <summary>
-                JS<i class="fa fa-arrow-up" aria-hidden="true"></i>
-
-
-
-
-            </summary>
-            <div>
-                <img src="assets/meme1.jpg" alt="">
-            </div>
-        </details>
-        <details>
-            <summary>
-                HTML<i class="fa fa-arrow-up" aria-hidden="true"></i>
-            </summary>
-            <div>
-                <img src="assets/meme2.gif" alt="">
-            </div>
-        </details>
-        <details>
-            <summary>
-                CSS<i class="fa fa-arrow-up" aria-hidden="true"></i>
-            </summary>
-            <div>
-                <img src="assets/meme3.jpg" alt="">
-            </div>
-        </details>
-        <details>
-            <summary>
-                REACT<i class="fa fa-arrow-up" aria-hidden="true"></i>
-            </summary>
-            <div>
-               <img src="assets/meme4.jpg" alt="">
-            </div>
-        </details>
-    </div>
+    <div class="wrapper">
+        <div class="meme">
+          <input type="radio" id="meme-input1" class="meme__input" name="meme" checked="">
+          <label for="meme-input1" class="meme-btn">
+            <span class="meme-title">JS</span>
+            <span class="meme-sign"></span>
+            <img class="meme-img" src="assets/meme1.jpg" alt="JS">
+          </label>
+        </div>
+        <div class="meme">
+          <input type="radio" id="meme-input2" class="meme__input" name="meme">
+          <label for="meme-input2" class="meme-btn">
+            <span class="meme-title">CSS</span>
+            <span class="meme-sign"></span>
+            <img class="meme-img" src="assets/meme2.gif" alt="css">
+          </label>
+        </div>
+        <div class="meme">
+          <input type="radio" id="meme-input3" class="meme__input" name="meme">
+          <label for="meme-input3" class="meme-btn">
+            <span class="meme-title">HTML</span>
+            <span class="meme-sign"></span>
+            <img class="meme-img" src="assets/meme3.jpg" alt="HTML">
+          </label>
+        </div>
+        <div class="meme">
+          <input type="radio" id="meme-input4" class="meme__input" name="meme">
+          <label for="meme-input4" class="meme-btn">
+            <span class="meme-title">React</span>
+            <span class="meme-sign"></span>
+            <img class="meme-img" src="assets/meme4.jpg" alt="React">
+          </label>
+        </div>
+      </div>
 </body>
 </html>
