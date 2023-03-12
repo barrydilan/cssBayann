@@ -59,7 +59,6 @@ html {
   }
   
   .meme-input:checked + .meme-btn > .meme-sign {
-    /* transform: rotate(45deg); */
     animation: rotated;
     animation-duration: 2s;
     transform: rotate(45deg);
